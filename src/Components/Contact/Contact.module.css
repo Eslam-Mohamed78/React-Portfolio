@@ -1,0 +1,36 @@
+.container {
+  margin: 140px 0 100px 0;
+}
+
+.title h2, 
+.title .star {
+    color: #2C3E50;
+}
+.title span {
+    background-color: #2C3E50;
+}
+
+.input input,
+.input textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+}
+
+form .submit {
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px !important;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .container {
+      max-width: 700px !important;
+    }
+  }
+

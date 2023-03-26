@@ -1,0 +1,20 @@
+.home {
+  background-color: #1bbc9c;
+  color: white;
+}
+.content {
+  padding-top: 200px;
+}
+img {
+  width: 240px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+}
+.title {
+  font-size: 24px;
+}

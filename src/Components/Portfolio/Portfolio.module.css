@@ -1,0 +1,38 @@
+.title h2, 
+.title .star {
+    color: #2C3E50;
+}
+.title span {
+    background-color: #2C3E50;
+}
+.bgLayer {
+    background-color: rgba(27, 188, 156, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.4s ease;
+}
+.image:hover .bgLayer {
+    background-color: rgba(27, 188, 156, 0.9);
+
+
+}
+.bgLayer i {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.image:hover i {
+    opacity: 0.9;
+}
+
+.body {
+    padding-inline: 200px !important;
+}
+
+.close {
+    font-size: 25px;
+}

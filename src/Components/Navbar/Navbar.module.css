@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background-color: #2C3E50; 
+    font-weight: 700;
+}
+.logo {
+    font-size: 28px !important;
+}
+
+ul li:hover {
+    color: #1bbc9c !important;
+}

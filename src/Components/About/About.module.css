@@ -1,0 +1,20 @@
+.backGround {
+  background-color: #1bbc9c;
+  padding: 100px 0;
+  margin-top: 150px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 700px !important;
+  }
+}

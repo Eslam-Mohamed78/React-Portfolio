@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2C3E50;
+  padding: 70px 0 100px 0;
+  color: white;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+ul.social li {
+    font-size: 20px;
+    border: 2px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.4s ease,
+    background-color 0.3s ease;
+    cursor: pointer;
+}
+
+ul.social li:hover {
+    background-color: white;
+    color: #2C3E50;
+}
+
+.copyRight {
+    background-color: #1A252F;
+    color: white;
+    padding: 20px 0;
+}
+.copyRight p {
+    font-size: 14px;
+}
